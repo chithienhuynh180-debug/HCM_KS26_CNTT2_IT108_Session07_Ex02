@@ -1,0 +1,8 @@
+Câu 1.
+Get-ChildItem tìm theo tên file, nên chỉ tìm file có tên chứa “404” và không ra gì.
+Select-String tìm theo nội dung trong file, đây mới là lệnh cần dùng để lọc dòng lỗi trong log.
+
+Câu 2.
+Select-String -Path access.log -Pattern “ERROR”
+
+Kết quả tự hiện kèm số dòng (access.log:số dòng:nội dung).
